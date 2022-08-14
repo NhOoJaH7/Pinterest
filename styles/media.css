@@ -1,0 +1,146 @@
+@media (min-width:1680px) and (max-width: 1720px){
+  body{
+    padding-left: 80px;
+  }
+}
+
+@media (min-width:1600px) and (max-width: 1680px){
+  body{
+    padding-left: 60px;
+  }
+}
+
+@media (min-width:1550px) and (max-width: 1600px){
+  body{
+    padding-left: 50px;
+  }
+}
+
+@media (min-width:1510px) and (max-width: 1550px){
+  body{
+    padding-left: 40px;
+  }
+}
+
+@media (max-width:1470px){
+  .pictures-grid{
+    grid-template-columns: 240px 240px 240px 240px 240px;
+  }
+}
+
+@media (min-width:1400px) and (max-width: 1460px){
+  body{
+    padding-left: 80px;
+  }
+}
+
+@media (min-width:1300px) and (max-width: 1400px){
+  body{
+    padding-left: 60px;
+  }
+}
+
+@media (min-width:1230px) and (max-width: 1300px){
+  body{
+    padding-left: 20px;
+  }
+}
+
+
+@media (max-width:1222px){
+  .pictures-grid{
+    grid-template-columns: 240px 240px 240px 240px ;
+  }
+}
+
+@media (min-width:1160px) and (max-width: 1220px){
+  body{
+    padding-left: 80px;
+  }
+}
+
+@media (min-width:1100px) and (max-width: 1160px){
+  body{
+    padding-left: 60px;
+  }
+}
+
+@media (min-width:1000px) and (max-width: 1100px){
+  body{
+    padding-left: 40px;
+  }
+}
+
+
+@media (min-width:960px) and (max-width: 1000px){
+  body{
+    padding-left: 20px;
+  }
+}
+
+@media (max-width:940px){
+  .pictures-grid{
+    grid-template-columns: 240px 240px 240px  ;
+  }
+}
+
+@media (min-width:880px) and (max-width: 939px){
+  body{
+    padding-left: 80px;
+  }
+}
+
+@media (min-width:820px) and (max-width: 880px){
+  body{
+    padding-left: 60px;
+  }
+}
+
+@media (min-width:800px) and (max-width: 820px){
+  body{
+    padding-left: 40px;
+  }
+}
+
+
+@media (min-width:760px) and (max-width: 800px){
+  body{
+    padding-left: 20px;
+  }
+}
+
+@media (max-width:740px){
+  .pictures-grid{
+    grid-template-columns: 240px 240px;
+  }
+}
+
+@media (min-width:680px) and (max-width: 739px){
+  body{
+    padding-left: 80px;
+  }
+}
+
+@media (min-width:620px) and (max-width: 680px){
+  body{
+    padding-left: 60px;
+  }
+}
+
+@media (min-width:600px) and (max-width: 620px){
+  body{
+    padding-left: 40px;
+  }
+}
+
+@media (min-width:570px) and (max-width: 600px){
+  body{
+    padding-left: 20px;
+  }
+}
+
+@media (max-width:560px){
+  body{
+    padding-left: 10px;
+  }
+}

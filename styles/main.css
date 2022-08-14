@@ -1,0 +1,166 @@
+.pictures-grid{
+  display: grid;
+  grid-template-columns:238px 238px 238px 238px 238px 238px ;
+  column-gap: 15px;
+  row-gap: 30px;
+}
+
+.picture-preview{
+  display: inline-block;
+
+}
+
+.picture{
+  width: 238px;
+  height: 360px;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: top;
+  
+}
+
+.picture-container .overlay2{
+  position: absolute;
+  background-color: ;
+  top: 63px;
+  bottom: 49px;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.picture-container{
+  width: 238px;
+  height: 360px;
+  box-shadow: 0 0 1px rgba(0,0,0,0.15);
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.picture-container:hover .overlay{
+  background-color: rgba(0, 0, 0, 0.322);
+}
+
+.picture-container .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 15px;
+}
+
+.picture-container:hover .upper-part,
+.picture-container:hover .down-part{
+  opacity: 1;
+}
+
+.upper-part{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position:absolute;
+  top: 10px;
+  left: 14px;
+  right: 10px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.upper-part .text{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.upper-part .save-button{
+  color: white;
+  font-weight: 600;
+  font-size:16px ;
+  background-color: rgb(240, 0, 0);
+  border: none;
+  border-radius: 30px;
+  padding: 16px 17px 16px 17px;
+}
+
+.save-button:hover{
+  background-color: rgb(187, 0, 0);
+}
+
+.down-part{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  left: 12px;
+  opacity: 0;
+}
+
+.down{
+  width: 16px;
+}
+
+.twitter{
+  font-weight: 400px;
+  font-size: 15px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  border-radius:20px;
+  padding: 8px 15px 8px 15px;
+  transition:background-color 0.15s ;
+  cursor: pointer;
+}
+
+.twitter:hover{
+  background-color: white;
+}
+
+.right-side{
+  display: flex;
+  
+}
+
+.download{
+  background-color: rgb(238, 238, 238);
+  border: none;
+  padding:8px 10px 8px 10px ;
+  border-radius: 30px;
+  text-align: center;
+  transition:background-color 0.15s ;
+  cursor: pointer;
+}
+
+.download:hover{
+  background-color: white;
+}
+
+
+.more{
+  background-color: rgb(238, 238, 238);
+  border: none;
+  padding:10px 9px 7px 9px ;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 7px;
+  transition:background-color 0.15s ;
+  cursor: pointer;
+}
+
+.more:hover{
+  background-color: white;
+}
+
+
+
+
+
+.author{
+  margin-top:12px ;
+}
+

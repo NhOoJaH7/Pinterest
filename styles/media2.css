@@ -1,0 +1,159 @@
+@media (max-width:1050px){
+  .main{
+    flex-direction: column;
+    width: 510px;
+    height: 1300px;
+  }
+  
+  .information-container{
+    height: 560px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 33px;
+    border-bottom-left-radius: 33px;
+  }
+
+  .picture-container{
+
+  }
+
+  .picture{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+  }
+
+}
+
+@media (min-width:1680px) and (max-width: 1720px){
+  .main{
+    margin-left:330px ;
+  }
+}
+
+@media (min-width:1600px) and (max-width: 1680px){
+  .main{
+    margin-left:300px ;
+  }
+}
+
+@media (min-width:1550px) and (max-width: 1600px){
+  .main{
+    margin-left:250px ;
+  }
+}
+
+@media (min-width:1510px) and (max-width: 1550px){
+  .main{
+    margin-left:200px ;
+  }
+}
+
+
+@media (min-width:1400px) and (max-width: 1510px){
+  .main{
+    margin-left:150px ;
+  }
+}
+
+@media (min-width:1300px) and (max-width: 1400px){
+  .main{
+    margin-left:100px ;
+  }
+}
+
+@media (min-width:1230px) and (max-width: 1300px){
+  .main{
+    margin-left:90px ;
+  }
+}
+
+@media (min-width:1160px) and (max-width: 1230px){
+  .main{
+    margin-left:40px ;
+  }
+}
+
+@media (min-width:1100px) and (max-width: 1160px){
+  .main{
+    margin-left:20px ;
+  }
+}
+
+@media (min-width:1050px) and (max-width: 1100px){
+  .main{
+    margin-left:0px ;
+  }
+  
+  .back-button{
+    opacity: 0;
+  }
+}
+
+
+@media (min-width:990px) and (max-width: 1050px){
+  .main{
+    margin-left:265px ;
+  }
+}
+
+
+@media (min-width:880px) and (max-width: 999px){
+  .main{
+    margin-left:240px;
+  }
+}
+
+@media (min-width:820px) and (max-width: 880px){
+  .main{
+    margin-left: 150px;
+  }
+}
+
+@media (min-width:800px) and (max-width: 820px){
+  .main{
+    margin-left:140px ;
+  }
+}
+
+
+@media (min-width:760px) and (max-width: 800px){
+  .main{
+    margin-left:125px ;
+  }
+}
+
+@media (min-width:680px) and (max-width: 760px){
+  .main{
+    margin-left:110px ;
+  }
+}
+
+@media (min-width:620px) and (max-width: 680px){
+  .main{
+    margin-left:70px ;
+  }
+}
+
+@media (min-width:600px) and (max-width: 620px){
+  .main{
+    margin-left:30px ;
+  }
+}
+
+@media (min-width:560px) and (max-width: 600px){
+  .main{
+    margin-left:25px ;
+  }
+}
+
+@media (max-width:560px){
+  .main{
+    margin-left: 5px;
+  }
+
+  .back-button{
+    opacity: 0;
+  }
+}
+
+
